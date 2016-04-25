@@ -1,3 +1,36 @@
+#Columns are:
+#1. Run name
+#2. Final time step
+#3. Total mass involved in impact, scaled by mass of the Earth (5.98e27 grams)
+#4. Target mass (Earth masses)
+#5. Impactor mass (Earth masses)
+#6. Gamma = Mimp/(Mtarg+Mimp)
+#7. Mass fraction of iron in target
+#8. Mass fraction if iron in impactor
+#9. Target radius (cm)
+#10. Projectile radius (cm)
+#11. Impact velocity (km/s)
+#12. Vimp/Vesc,sys
+#13. Impact angle (degrees)
+#14. Minteract (grams)
+#15. Angular momentum of all material bound to the system (in cgs units)
+#16. Disk mass (grams)
+#17. Disk angular momentum (cgs units)
+#18. Predicted lunar mass, based on Ida, Canup & Stewart (1997) equation 
+#19. Radius of the final planet (cm)
+#20. Mass of the final planet (grams)
+#21. Density of the planet material (g/cm^3)
+#22. Density of the disk material (g/cm^3)
+#23. Total mass of material gravitationally bound to the system (grams)
+#24. Total mass of material in the computational domain (grams)
+#25. Roche limit of the planet (cm)
+#26. Mass of material escaping from the system
+#27. Angular momentum of planetary material (scaled by 3.5e41, earth-moon angular momentum)
+#28. Mass fraction of iron in Minteract material
+#29. Mass fraction of iron in the disk material
+#30. Planet rotation period in hours
+#31. Jcol, scaled angular momentum of the collision
+#32. Jdisk, scaled angular momentum of the disk
 big_earth, 0040470, 2.311419e+00, 1.561356e+00, 7.500625e-01, 3.245031e-01, 3.040524e-01, 3.373277e-01, 7.376840e+08, 5.972680e+08, 1.091883e+01, 9.290543e-01, 6.212867e+01, 9.058892e+25, 8.548002e+00, 7.620006e+26, 3.202237e+00, 1.928441e-01, 8.373847e+08, 1.286880e+28, 5.232080e+00, 3.898278e+00, 1.363080e+28, 1.363080e+28, 1.332189e+09, 0.000000e+00, 1.871098e+42, 2.684245e-03, 1.535098e-02, 2.827317e+00, 3.137375e-01, 7.463525e-02
 pc_earth, 0027911, 1.012617e+00, 6.814080e-01, 3.312088e-01, 3.270821e-01, 2.957823e-01, 3.266987e-01, 5.863350e+08, 4.724660e+08, 8.588400e+00, 9.832600e-01, 6.192117e+01, 4.061385e+25, 2.249521e+00, 3.655543e+26, 8.538240e-01, 8.351612e-02, 6.664799e+08, 5.617928e+27, 4.530294e+00, 3.392137e+00, 5.983485e+27, 5.985220e+27, 1.058551e+09, 1.738256e+24, 4.885072e+41, 3.006418e-03, 4.402644e-03, 2.993837e+00, 3.340383e-01, 7.679733e-02
 rocky_exo2, 0028464, 2.660433e-01, 2.271521e-01, 3.889114e-02, 1.461835e-01, 2.815633e-01, 2.964372e-01, 4.214140e+08, 2.401390e+08, 5.586292e+00, 9.862825e-01, 5.055003e+01, 2.880882e+25, 1.463493e-01, 3.343863e+25, 3.756452e-02, 9.392576e-03, 4.563698e+08, 1.543826e+27, 3.877562e+00, 3.204097e+00, 1.577359e+27, 1.588703e+27, 7.014150e+08, 1.143864e+25, 3.808160e+40, 1.310890e-02, 1.548987e-01, 4.913562e+00, 1.629982e-01, 3.125622e-02
